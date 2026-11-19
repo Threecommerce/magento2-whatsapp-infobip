@@ -4,7 +4,7 @@ Sends the **tracking number of every shipment to your customer on WhatsApp**, au
 
 ![The WhatsApp message received by the customer](images/whatsapp-infobip-message.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5
 **License:** commercial · coming soon
 
 ## Features
@@ -24,7 +24,7 @@ Sends the **tracking number of every shipment to your customer on WhatsApp**, au
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4 with `curl` and `json` extensions
+- PHP 8.1 – 8.5 with `curl` and `json` extensions
 - Package: `threecommerce/m2-base`
 - An **Infobip** account with WhatsApp enabled: API key, a registered sender number and an approved template with three body variables (order number, carrier, tracking number)
 - Magento cron running on the server
